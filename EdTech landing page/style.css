@@ -1,0 +1,155 @@
+/* Reset default browser styles */
+body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #20232a;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #61dafb;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    color: #343a40;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff4d00;
+}
+
+/* Features section styles */
+.features {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+    padding: 20px;
+}
+
+.feature i {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff6600;
+}
+
+.feature h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #343a40;
+}
+
+/* Testimonial section styles */
+.testimonial {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.testimonial p {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.testimonial h4 {
+    font-size: 1.4rem;
+}
+
+/* Footer styles */
+.footer-content {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    color: #555;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 15px 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    font-size: 1.8rem;
+    color: #555;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ff6600;
+}
